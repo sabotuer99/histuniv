@@ -23,6 +23,11 @@
 
     </div>
   <% end %>
+  
+  <% if @question.empty? %>
+    <br/
+    <div class="alert alert-info">Nothing here yet, be the first to ask? </div>
+  <% end %>
 
 
 </div>

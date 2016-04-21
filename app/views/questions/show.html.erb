@@ -39,6 +39,10 @@
             </div>
             <% end %>
             
+              <% if @answers.empty? %>
+                <br/>
+                <div class="alert alert-info">Nothing here yet, be the first to answer? </div>
+              <% end %>
             
         </div>
     </div>
