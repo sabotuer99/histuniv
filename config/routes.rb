@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   
   get 'about' => 'home#about'
   
+  get '/questions/:id' => 'home#question'
   post '/questions' => 'home#temp'
 
   # The priority is based upon order of creation: first created -> highest priority.
