@@ -3,10 +3,7 @@ Rails.application.routes.draw do
   root 'home#index'
   
   get 'about' => 'home#about'
-  
-  get '/questions/:id' => 'home#question'
-  post '/questions' => 'home#temp'
-  post '/answers' => 'home#temp'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
